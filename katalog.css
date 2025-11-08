@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cyan;
+    /* background-color: rgba(173, 216, 230, 0.484); */
+}
+
+.menue {
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    background-color: transparent;
+}
+
+.ourGames {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 8vh;
+    background-color: transparent;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-top: 8vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    background-color: transparent;
+}
+
+.game {
+    background-color: rgba(127, 255, 212, 0.249);
+    height: 185px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+.one {
+    background-image: url(../project/image/1.png);
+    background-position-x: 40%;
+}
+
+.two {
+    background-image: url(../project/image/2.webp);
+}
+
+.three {
+    background-image: url(../project/image/3.png);
+    background-position-x: 78%;
+}
+
+.four {
+    background-image: url(../project/image/4.png);
+    z-index: 10;
+}
+
+.five {
+    background-image: url(../project/image/5.webp);
+    background-position-x: 70%;
+}
+
+.six {
+    background-position-x: 70%;
+    background-image: url(../project/image/11.png);
+}
+
+.four:hover {
+    transform: rotateY(180deg);
+    background-image: url(../project/image/welcome.png);
+    transition: 1.5s;
+}
+
+#four:hover {
+    transform: rotateY(180deg);
+    background-image: url(../project/image/welcome.png);
+    transition: 1.5s;
+}
+
+.game:hover {
+    transform: rotateY(180deg);
+    background-image: url(../project/image/123.jpg);
+    transition: 1.5s;
+}
